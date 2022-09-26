@@ -35,9 +35,6 @@ register_coco_instances(name=train_dataset_name, metadata={},
 register_coco_instances(name=test_dataset_name, metadata={},
                         json_file=test_json_annot_path, image_root=test_images_path)
 
-
-# plot_samples(dataset_name=train_dataset_name, n=2)
-
 ##################################################
 
 def main():
